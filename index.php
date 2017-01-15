@@ -59,23 +59,6 @@
 
         $user->AddToBd($mysqli);
     }
-
-    print ("<table border = '2'>");
-    print ("<tr>");
-    print ("<td>Login</td>");
-    print ("<td>Password</td>");
-    print ("<td>Email</td>");
-    print ("</tr>");
-    foreach ($userList as $users)
-    {
-        print ("<tr>");
-        print ("<td>".$users->login."</td>");
-        print ("<td>".$users->password."</td>");
-        print ("<td>".$users->email."</td>");
-        print ("</tr>");
-    }
-    print ("</table>");
-
 ?>
 
 <form method = "post" action = " ">
